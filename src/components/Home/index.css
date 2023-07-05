@@ -1,0 +1,117 @@
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  height: 123vh;
+  background-color: rgb(237, 237, 242);
+  flex-grow: grow;
+  padding: 45px;
+}
+.find-books-btn {
+  background-color: #0284c7;
+  color: white;
+  height: 30px;
+  width: 90px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+}
+.home-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.home-paragraph {
+  font-size: 22px;
+}
+.slider-top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.slider-container {
+  padding-bottom: 35px;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 10px;
+}
+.top-rated-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  height: 30vh;
+  width: 30vw;
+}
+.top-rated-failure-btn {
+  border: none;
+  background-color: rgb(0, 119, 225);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.top-rated-book-image {
+  width: 95%;
+  height: 100px;
+}
+.top-rated-book-container {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: white;
+}
+.book-item {
+  background-color: white;
+}
+.slick-container {
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text-links {
+  text-decoration: none;
+}
+.slick-item {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 16px;
+}
+.slick-item-cover-pic {
+  height: 100px;
+  width: 80%;
+}
+.title {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: black;
+}
+.author-name {
+  color: black;
+}
+@media screen and (min-width: 786px) {
+  .responsive-btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 786px) {
+  .responsive-btn-sm {
+    display: none;
+  }
+}

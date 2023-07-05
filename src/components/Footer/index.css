@@ -1,0 +1,13 @@
+.contact-us-icon {
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.contact-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 40px;
+}
